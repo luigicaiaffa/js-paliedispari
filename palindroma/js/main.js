@@ -5,11 +5,12 @@
 // # Elaborazione
 /**
  * funzione che chiede all'utente una parola e controlla che sia palindroma
- * @returns {string}  se la parola inserita è palindroma o no
+ * @param {string} userWord la parola inserita dall'utente
+ * @returns se la parola inserita è palindroma o no
  */
-function isUserWordPalindrome() {
+function isUserWordPalindrome(userWord) {
   // chiedi all'utente di inserire una parola
-  const userWord = prompt("Inserisci una parola");
+  userWord = prompt("Inserisci una parola");
 
   // dividi la parola in lettere e inseriscila in un array
   let lettersUserWord = userWord.split("");
@@ -25,13 +26,13 @@ function isUserWordPalindrome() {
 
   // SE la parola è palindroma
   if (isPalindrome) {
-    // stampo messagio di output
+    // stampa messagio di output
     return `E' una parola palindroma`;
   }
 
   // ALTRIMENTI
   else {
-    // stampo messagio di output
+    // stampa messagio di output
     return `Non è una parola palindroma`;
   }
 }

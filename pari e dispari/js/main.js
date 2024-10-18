@@ -4,3 +4,14 @@
 // * Sommiamo i due numeri
 // * Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // * Dichiariamo chi ha vinto.
+
+// # Elaborazione
+// chiedi all'utente di scegliere tra pari e dispari
+// prompt string
+// chiedi all'utente di inserire un numero
+// prompt number
+// crea una funzione che genera un numero random per il computer
+// crea una funzione che stabilisce se la somma dei due numeri è pari o dispari
+
+// # Output
+// dichiaro chi ha vinto
